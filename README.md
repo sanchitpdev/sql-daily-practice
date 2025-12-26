@@ -10,27 +10,6 @@ The goal is to build **strong SQL fundamentals** with consistency and clarity.
 
 ---
 
-## 📁 Repository Structure
-
-sql-daily-practice/
-│
-├── README.md
-├── progress.md
-│
-├── 2025/
-│ └── January/
-│ ├── Day01/
-│ │ ├── problem.md
-│ │ ├── solution.sql
-│ │ └── notes.jpg
-│ └── Day02/
-│ ├── problem.md
-│ ├── solution.sql
-│ └── notes.jpg
-
-
----
-
 ## 🧠 What This Repository Covers
 
 - Basic SQL queries (SELECT, WHERE)
