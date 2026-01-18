@@ -9,7 +9,7 @@
 
 Table: `Transactions`
 
-
+```
 +----------------+---------+
 | Column Name    | Type    |
 +----------------+---------+
@@ -19,7 +19,7 @@ Table: `Transactions`
 | amount         | int     |
 | trans_date     | date    |
 +----------------+---------+
-
+```
 Each row contains information about a transaction.
 
 Write an SQL query to find for each **month** and **country**:
@@ -36,7 +36,7 @@ Return the result table ordered by `month` and `country`.
 ## 🧪 Example
 
 ### Input
-
+```
 Transactions table:
 +----+---------+----------+--------+------------+
 | id | country | state    | amount | trans_date |
@@ -46,10 +46,10 @@ Transactions table:
 | 3  | US      | approved | 3000   | 2019-01-01 |
 | 4  | FR      | approved | 1500   | 2019-01-02 |
 +----+---------+----------+--------+------------+
-
+```
 
 ### Output
-
+```
 +---------+---------+----------------+------------------+----------------------+------------------------+
 | month   | country | trans_count    | trans_total_amt  | approved_count       | approved_total_amt     |
 +---------+---------+----------------+------------------+----------------------+------------------------+
@@ -57,7 +57,7 @@ Transactions table:
 | 2019-01 | FR      | 1              | 1500             | 1                    | 1500                   |
 | 2019-01 | US      | 1              | 3000             | 1                    | 3000                   |
 +---------+---------+----------------+------------------+----------------------+------------------------+
-
+```
 ## 💡 Key Insight
 
 - Extract **month** from `trans_date`
